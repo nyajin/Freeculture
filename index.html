@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Freeculture</title>
     <style>
-        /* 전체 페이지에 대한 스타일 설정 */
+        
         body {
             font-family: Arial, sans-serif;
-            background-color: #FFC000; /* 황금색 배경 */
+            background-color: #FFC000; 
             color: darkgreen;
             margin: 0;
             padding: 0;
@@ -21,11 +21,11 @@
             
         }
         header img {
-            width: 200px; /* 원하는 가로 크기로 설정 */
+            width: 200px; 
             height: auto;
-            padding: 5px 25px; /* 세로 크기는 가로 크기에 비례하도록 자동 조정 */
+            padding: 5px 25px; 
         }
-        /* 주 메뉴에 대한 스타일 설정 */
+        
         .fixed-top {
             position: fixed;
             top: 0;
@@ -52,14 +52,14 @@
         .menu a:hover[href="introduce.html"] {
             color: white;
         }
-        /* 컨텐츠 섹션 스타일 */
+       
         .content {
             display: flex;
             justify-content: space-around;
             align-items: center;
             padding: 18px;
         }
-        /* 각 카드의 스타일 */
+        
         .card {
             text-align: center;
             border-style: solid;
@@ -71,7 +71,7 @@
         
         
         .card:not(:first-of-type) {
-            margin-left: -3px; /* 카드의 테두리 겹치기 현상 조정 */
+            margin-left: -3px; 
         }
         .card h2 {
             margin-top: 0;
@@ -80,7 +80,7 @@
             font-size: 30px;
             font-weight: bold;
         }
-        /* 아이콘을 감싸는 원형 요소 스타일 */
+        
         .icon-circle {
             background-color: #ffffff;
             border: 4.5px solid darkgreen;
@@ -90,7 +90,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            margin: 0 auto; /* 수평 중앙 정렬 */
+            margin: 0 auto; 
         }
 
         .section{   
@@ -120,13 +120,13 @@
         .transparent-box {
             width: 100%;
             height: 200px;
-            background-color: transparent; /* 투명도 조절을 위해 RGBA 색상 사용 */
+            background-color: transparent;
             
         }
         .transparent-box2 {
             width: 80px;
             height: 200px;
-            background-color: transparent; /* 투명도 조절을 위해 RGBA 색상 사용 */
+            background-color: transparent;
             
         }
         
@@ -142,32 +142,32 @@
    
 
     <div class="content">
-        <!-- 음악 카드 -->
+        
         
         <a href="#musicsection" style="text-decoration: none; color: #006400;">
             <div class="card" style="border: 4.5px solid transparent;" onmouseover="this.style.borderColor='darkgreen';" onmouseout="this.style.borderColor='transparent';">  
                 <div class="icon-circle">
-                    <!-- 아이콘 이미지가 들어갈 자리 -->
+                   
                     <img src="images/headphone.png" alt="Music Icon" width="100" height="100">
                 </div>
                 <h2 style="text-decoration: none; margin-bottom: 0;">LIFE <br>IS <br>MUSIC</h2>
             </div>
         </a>
         
-        <!-- 책 카드 -->
+       
         <a href="#booksection" style="text-decoration: none; color: darkgreen;">
         <div class="card" style="border: 4.5px solid transparent;" onmouseover="this.style.borderColor='darkgreen';" onmouseout="this.style.borderColor='transparent';">
             <div class="icon-circle">
-                <!-- 아이콘 이미지가 들어갈 자리 -->
+               
                 <img src="images/book.png" alt="Book Icon" width="100" height="100">
             </div>
             <h2>LIFE <br>IS <br>BOOK</h2>
         </div>
-        <!-- 영화 카드 -->
+        
         <a href="#moviesection" style="text-decoration: none; color: darkgreen;">
         <div class="card" style="border: 4.5px solid transparent;" onmouseover="this.style.borderColor='darkgreen';" onmouseout="this.style.borderColor='transparent';">
             <div class="icon-circle">
-                <!-- 아이콘 이미지가 들어갈 자리 -->
+               
                 <img src="images/movie.png" alt="Movie Icon" width="90" height="90">
             </div>
             <h2>LIFE <br>IS <br>MOVIE</h2>
